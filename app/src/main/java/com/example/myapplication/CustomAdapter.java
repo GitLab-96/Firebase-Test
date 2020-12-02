@@ -37,8 +37,8 @@ public class CustomAdapter extends ArrayAdapter<Student> {
         TextView  textView1 = view.findViewById(R.id.nameTextViewId);
         TextView textView2 = view.findViewById(R.id.ageTextViewId);
 
-        textView1.setText("Name : "+student.getName());
-        textView2.setText("Age : "+student.getAge());
+        textView1.setText(String.format("Name : %s", student.getName()));
+        textView2.setText(String.format("Age : %s", student.getAge()));
 
         return view;
 

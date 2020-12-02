@@ -51,15 +51,9 @@ public class DetailsActivity extends AppCompatActivity {
                     Student student = dataSnapshot1.getValue(Student.class);
                     String age = student.getAge();
 
-
-                    if (!age.equals("") ){
-
+                    if(!age.equals("")){
                         studentList.add(student);
-
-
                     }
-
-
 
                 }
 
