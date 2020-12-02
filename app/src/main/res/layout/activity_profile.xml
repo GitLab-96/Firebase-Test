@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
+
+
+
+    <EditText
+        android:layout_marginTop="16dp"
+        android:hint="Enter your name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/nameEditTextID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+        />
+
+
+    <EditText
+        android:layout_marginTop="16dp"
+        android:hint="Enter your Age"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/ageEditTextID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+        android:layout_marginTop="16dp"
+        android:text="Save"
+        android:id="@+id/saveButttonID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+        android:layout_marginTop="16dp"
+        android:text="Show"
+        android:id="@+id/showButttonID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+    />
+
+</LinearLayout>
